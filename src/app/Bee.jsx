@@ -1,9 +1,8 @@
-import Spline from "@splinetool/react-spline/next";
+"use client";
+import Spline from "@splinetool/react-spline";
 
 export default function Bee() {
   return (
-    <main>
-      <Spline scene="https://prod.spline.design/fmFq2aCyDXWvEGFR/scene.splinecode" />
-    </main>
+    <Spline scene="https://prod.spline.design/fmFq2aCyDXWvEGFR/scene.splinecode" />
   );
 }
