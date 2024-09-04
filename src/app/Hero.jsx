@@ -30,7 +30,7 @@ const Hero = () => {
                 during workouts or busy days.
               </p>
               <div className="flex gap-5">
-                <button className="bg-pink-500 text-white font-bold rounded-xl px-6 py-3">
+                <button className="bg-pink-500  text-white font-bold rounded-xl px-6 py-3">
                   Buy it now
                 </button>
                 <button className="bg-pink-200 text-pink-500 font-bold rounded-xl px-6 py-3">
