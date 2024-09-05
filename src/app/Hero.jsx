@@ -14,8 +14,8 @@ const Hero = () => {
             <li>Click</li>
           </ul>
         </nav>
-        <header className="relative top-[15%]">
-          <h1 className="text-9xl tracking-[24px] text-pink-500 font-black">
+        <header className="relative top-[13%]">
+          <h1 className="text-[8vw] tracking-[27px] text-pink-500 font-black">
             Blossoms Honey
           </h1>
         </header>
@@ -30,7 +30,7 @@ const Hero = () => {
       <div className="absolute top-[15%] inset-0 z-30 px-16 py-5 pointer-events-none">
         <div className="h-screen flex items-center">
           <aside className="w-[25%] pointer-events-auto">
-            <p className="text-justify mb-5">
+            <p className="text-justify mb-5 text-[1vw]">
               Honey is a natural sweetener made by bees from the nectar of
               flowers. It never spoils, has been found in ancient Egyptian tombs
               still edible, and has antibacterial properties. Rich in
@@ -39,10 +39,10 @@ const Hero = () => {
               during workouts or busy days.
             </p>
             <div className="flex gap-5">
-              <button className="bg-pink-500 text-white font-bold rounded-xl px-6 py-3">
+              <button className="bg-pink-500 text-white text-[1vw] font-bold rounded-xl px-[1.55vw] py-[.755vw]">
                 Buy it now
               </button>
-              <button className="bg-pink-200 text-pink-500 font-bold rounded-xl px-6 py-3">
+              <button className="bg-pink-200 text-pink-500 text-[1vw] font-bold rounded-xl px-[1.55vw] py-[.755vw]">
                 Buy it now
               </button>
             </div>
